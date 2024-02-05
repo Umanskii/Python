@@ -1,13 +1,18 @@
-#still working on it
-price = input("Enter the House price: ")
-good_credit = input("Enter credit score: ")
-if good_credit  >= 700:True
-else bed_credit >= 500:False
-print(good_credit)
+#simple program to calculate the down payment
 
-if good_credit:
-    downpayment = price * 0.1
-    print(f"Down payment is ${downpayment}")
+# Get user input for house price and credit score
+name = input("Enter your full name: ")
+price = int(input("Enter the house price: "))
+credit_score = int(input("Enter your credit score: "))
+
+# Check the credit score and provide a response
+if credit_score >= 700:
+    print(f"{name} Congratulations! You have good credit.")
+    downpayment = price * 0.1  # 10% down payment for good credit
 else:
-    downpayment = price * 0.2
-    print(f"Down payment is ${downpayment}")
+    print(f"{name} Sorry, your credit score is below the threshold for good credit.")
+    downpayment = price * 0.2  # 20% down payment for lower credit
+
+print(f"Dear {name}, your Down payment is ${downpayment}")
+
+    
