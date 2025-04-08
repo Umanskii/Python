@@ -5,7 +5,7 @@ name = input("Enter your full name: ")
 price = int(input("Enter the house price: "))
 credit_score = int(input("Enter your credit score: "))
 
-# Check the credit score and provide a response
+# Check the credit score and provide a response only apply loan 700 and up
 if credit_score >= 700:
     print(f"{name} Congratulations! You have good credit.")
     downpayment = price * 0.1  # 10% down payment for good credit

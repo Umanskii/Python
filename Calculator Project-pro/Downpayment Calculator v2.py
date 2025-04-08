@@ -1,3 +1,5 @@
+import math
+
 def get_user_input():
     name = input("Enter your full name: ")
     price = int(input("Enter the house price: "))

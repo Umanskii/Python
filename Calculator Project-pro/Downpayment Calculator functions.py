@@ -22,3 +22,5 @@ def main():
     print(f"Dear {name}, your down payment is ${downpayment}")
 
 
+#if __name__ == "__main__":
+    main()
